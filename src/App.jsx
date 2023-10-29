@@ -28,9 +28,9 @@ function App() {
           <h2>Examples</h2>
           <menu>
             <TabButton onSelect={handleClick}>Components</TabButton>
-            <TabButton>JSX</TabButton>
-            <TabButton>Props</TabButton>
-            <TabButton>State</TabButton>
+            <TabButton onSelect={handleClick}>JSX</TabButton>
+            <TabButton onSelect={handleClick}>Props</TabButton>
+            <TabButton onSelect={handleClick}>State</TabButton>
           </menu>
         </section>
       </main>
